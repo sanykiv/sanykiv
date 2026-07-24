@@ -1,35 +1,21 @@
-# Привет, я Александр 👋
+Привет, я Александр 👋
+Junior Data Analyst · SQL · Python · статистика · A/B-тесты
 
-**Junior Data Analyst** · SQL · Python · статистика · A/B-тесты
+Junior data analyst с бэкграундом операционного управления: руководил кухней ресторана (команда 5, оборот ~1 млн ₽/мес, ФОТ ~400 000 ₽), затем на реальных данных этого же ресторана провёл аналитический проект. Веду пет-проекты с упором на статистическую проверку гипотез (t-тест, p-value, поправка на множественность), а не «на глаз» — и сначала пытаюсь сломать собственные выводы.
 
-Аналитик данных с подтверждённым коммерческим результатом: в ресторанном бизнесе снизил
-food cost на 15–20% и закупочную себестоимость на 12%. Веду пет-проекты на реальных данных
-с упором на **статистическую проверку гипотез** (t-тест, p-value), а не «на глаз».
+🔧 Стек: Python (pandas, NumPy, SciPy) · SQL (оконные функции, CTE) · Power BI · Excel · Git
 
-🔧 **Стек:** Python (pandas, NumPy, SciPy) · SQL (оконные функции, CTE) · Power BI · Excel · Git
+🌍 Open Source
+mplfinance (~4 000) — новая фича, PR на ревью PR #702: настройка окраски баров объёма (volume_color_updown_dependency, 3 режима) + 7 тестов, обратная совместимость. Прошёл раунд ревью мейнтейнера.
 
----
+📊 Проекты
+Flight Demand Analysis — ad-hoc анализ спроса 300 000+ бронирований: паттерны цен по маршрутам и классам, SQL с оконными функциями (RANK, LAG), A/B-тест (разница 2.4×, p≈0). Python · pandas · SQL
 
-### 📊 Проекты
+BTC Market Analysis — проверка и опровержение гипотез 🔗 Live-демо (Streamlit) Бэктест на 9-летней истории BTC/USDT. Из 3 гипотез строгую проверку (бенчмарк vs дрейф рынка, Bonferroni, Манна–Уитни, аудит look-ahead) пережила только одна — объём при пробоях (фильтр ложных пробоев 33% → 12%). Отскок от поддержки сам разоблачил как дрейф рынка. Метод перенесён на on-chain данные Uniswap v3. Python · pandas · SciPy · ccxt · Streamlit
 
-**[BTC Market Analysis](https://github.com/sanykiv/btc-market-analysis)** — бэктест торговых гипотез
-🔗 [Live-демо (Streamlit)](https://btc-market-analysis-3e5lgwyeaqyl39taug5xwt.streamlit.app)
-Проверка паттернов на 9-летней истории BTC/USDT с t-тестами: отскок от поддержки значим на 9 годах
-(p≈0), но не на 2 (p=0.98). Вывод: размер выборки решает.
-`Python · pandas · SciPy · ccxt · Streamlit`
+Restaurant Analytics — анализ реальных данных Проект на данных ресторана, где ранее работал шеф-поваром: выявил недостачу 44 335 ₽ по ревизии (PDF → pdfplumber), обосновал перестройку графика смен под пиковую загрузку. Python · pandas · pdfplumber · Excel
 
-**[Flight Demand Analysis](https://github.com/sanykiv/flight-demand-analysis)** — ad-hoc анализ спроса
-300 000+ бронирований: паттерны цен по маршрутам и классам, SQL с оконными функциями (RANK, LAG),
-A/B-тест (разница 2.4×, p≈0).
-`Python · pandas · SQL`
-
-**[Restaurant Analytics](https://github.com/sanykiv/restaurant-analysis)** — оптимизация на реальных данных
-Аудит ревизии (недостача 44 335 ₽), модель списаний (−30%), пересчёт ФОТ (−80 000 ₽/мес).
-`Python · pandas · pdfplumber · Excel`
-
----
-
-### 📫 Связь
-- 📧 sashakivaev@yandex.ru
-- 💬 Telegram: [@mima_prohodil](https://t.me/mima_prohodil)
-- 👔 Habr Career: [career.habr.com/sanykiv](https://career.habr.com/sanykiv)
+📫 Связь
+📧 sashakivaev@yandex.ru
+💬 Telegram: @mima_prohodil
+👔 Habr Career: career.habr.com/sanykiv
